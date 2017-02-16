@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>
+            Objects in detail
+        </title>
+
+    </head>
+    <body>     
+
+        <script>
+        //Object literals
+        var objLit = {name: "Pradeep", qual:"BE"}
+        console.log("My name is " + objLit.name + " and qualification is " + objLit.qual);
+        //constructor pattern for creating an Object
+        function objCon(name, qual, yop){
+            this.myname = name;
+            this.myqual = qual;
+            this.theyear = yop;
+            this.showdetails = function(){
+            console.log("My name is " + this.myname + " and qualification is " + this.myqual + ", passed out on "+ this.theyear);
+            }
+        }
+        var pradeep = new objCon("Pradeep", "BE", 2012);
+        var dravid = new objCon("Rahul", "ME", 1992)
+        //console.log("My name is " + pradeep.myname + " and qualification is " + pradeep.myqual + ", passed out on "+ pradeep.theyear);
+         pradeep.showdetails();
+         dravid.showdetails();
+        
+        //Prototype pattern for creating an Object
+        function objProto(){ }
+        objProto.prototype.name = "ProRaman";
+        objProto.prototype.qaulis = "Graduate";
+        objProto.prototype.university = "Mysore university";
+        objProto.prototype.show = function(){
+            console.log(this.university);
+        }
+
+        var pradeeppro = new objProto();
+        pradeeppro.show();
+
+        //How to Access Properties on an Object
+        // 1. Dot notation
+          var school = {shcoolname: "GJC"};
+          console.log(school.shcoolname);
+        // 2. Bracket notation
+        
+         console.log(school["shcoolname"]);
+
+        //Own and inherited property
+        var school = {shcoolname: "GJC"};
+        console.log("shcoolname" in school); // this is school object's own property; holds true [[OWN PROPERTY]]
+        console.log("GEC" in school) // this holds false becuase its not school object property
+        console.log("toString" in school); // this holds true because toString is a property of Object.prototype and school object is in herting toString property here {{ INHERETED PROPERTY}}
+
+        // hasOwnProperty
+
+        var schoolown = { schools: "GJC"}
+        console.log(schoolown.hasOwnProperty("schools"));// true schools is own property of schoolown object
+        console.log(schoolown.hasOwnProperty("toString"));// false toString property is not the own property of schoolown object
+
+        //Accessing and Enumerating Properties on Objects
+        //To access enumerable property of an object we use for/in loop or general loop
+        var enurmerable = {prop1:"property1", prop2:"property2", prop3:"property4", prop4:"property4"}
+        for(eachitem in enurmerable){
+            console.log(eachitem);
+        }
+
+        //Accessing Inherited Properties
+        function higherEd(){
+            this.highGrade = "university post grade";
+        }
+        var underGrad = new higherEd();
+        underGrad.ofclass = 2011;
+        underGrad.college = "GEC";
+        underGrad.branch = "EC";
+        for(item in underGrad){
+            console.log(item);
+        }
+        //Deleting property of an Object
+        var ipl = { team1:"RCB", team2:"DD" }
+        //alert(delete ipl.team2);
+        console.log(ipl);
+
+        //Object’s Prototype Attribute and Prototype Property
+        //refer this link http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+
+
+        //Serialize and Deserialize Objects
+        //Serialize: to send object over http or other, need to convert object to string. We use JSON.stringfy
+        var SerializeObj = { a:"Apple", b:"Boat", c:"Camel", d:"Dukku"}
+        console.log(JSON.stringify(SerializeObj));
+		
+		var des = {		"alarm_Id": 117,
+      "alarm_Record_Id": 45429,
+      "alarm_Alias": null,
+      "alarm_Full_Name": "SavingsAlert",
+      "alarm_Severity": null,
+      "alarm_State": true,
+      "alarm_UTC_Stamp": "2012-10-13T16:20:49.067",
+      "acknowledge_Note": null,
+      "acknowledge_User_Id": null,
+      "acknowledge_UTC_Stamp": null,
+      "user_Name": null,
+      "user_FirstName": null,
+      "user_LastName": null,
+      "active_Alarm_Tab": null,
+      "acknowledge_Alarm_Tab": null,
+      "intermittend_Alarm_Tab": null,
+      "active_Setup": null,
+      "alarm_Info_Head": null,
+      "alarm_Severity_Head": null,
+      "alarm_Time_Head": null,
+      "alarm_Time_Ack_Head": null,
+      "alarm_Ack_By_Head": null,
+      "view": null,
+      "acknowledge": null,
+      "alarm_List": null
+	  }
+         
+         var desa = JSON.stringify(des);
+         console.log(JSON.parse(desa));
+        
+        </script>
+    </body>
+</html>
