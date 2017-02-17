@@ -1,1 +1,8 @@
-listings
+Up-to-date link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
+Youtube links: https://www.youtube.com/watch?v=WgyCEbgUcCk&list=PLz1XPAFf8IxbIU78QL158l_KlN9CvH5fg
+               https://www.youtube.com/watch?v=ZPWxEg5qAhw&list=PLOmNcAdC4n2C2t248HbYQIPcuyDm__5Hs
+Full Stack JS development links: https://www.youtube.com/watch?v=oeADuqaQYS0&list=PLw5h0DiJ-9PCS1v5EQEqyN7EpWpYp9Ywp
+			   
+Remaining suggested pdf's
+
+ 
