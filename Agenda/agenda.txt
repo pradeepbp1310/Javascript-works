@@ -5,6 +5,67 @@ Full Stack JS development links: https://www.youtube.com/watch?v=oeADuqaQYS0&lis
 			   
 Remaining suggested pdf's
 
-Timeline: End of March
-Proficiency in: OOPS, Design Patterns, Data Structures, Advanced concepts, Ability to understand any JS code.
- 
+*- -*
+  *
+'__'
+
+The Roadmap:
+
+1. Beginner level
+
+List of resource to follow
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+- http://eloquentjavascript.net/ [till Chapter 5 - Higher order functions]
+- Watch videos:- https://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners
+- Take quizzes:- http://www.codequizzes.com/javascript
+- Get used with Array, string predefined functions(Most of them) 
+
+2. Intermediate level
+
+- http://eloquentjavascript.net/ [From chapter 6]
+- http://javascriptissexy.com/category/16-important-javascript-concepts/ [Must swallowed and digested concepts]
+- https://classroom.udacity.com/courses/ud015/lessons/2593668697/concepts/29558186840923
+- http://bonsaiden.github.io/JavaScript-Garden/
+
+-------------------------------------------------------------------------------------
+Concepts will be covered in this section:
+
+Protypical inheritance, synchronous/asynchronous function
+OOP
+MVC
+Closures - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+Callbacks
+Apply
+Promises
+Separation of Concern(SOC)
+Higher-order functions
+JavaScript Arrays in Depth (Map)
+Reduce Data with Javascript Array
+Closures
+Currying
+Recursion
+Promises
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+https://developer.mozilla.org/en-US/docs/Web/API/Event
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+----------------------------------------------------------------------------------------
+Exercise: http://ynonperek.com/javascript-exer.html
+Misc: http://stackoverflow.com/questions/61088/hidden-features-of-javascript
+
+Things to cover along with this
+- ES6
+- Typescript
+  https://www.youtube.com/playlist?list=PLC3y8-rFHvwhI0V5mE9Vu6Nm-nap8EcjV
+  https://basarat.gitbooks.io/typescript/
+
+
+3. Advanced Level
+- https://msdn.microsoft.com/en-us/library/b9w25k6f(v=vs.94).aspx
+- The Principles of Object-Oriented JavaScript by nicholas c. zakas
+- Functional programming - https://codewords.recurse.com/issues/one/an-introduction-to-functional-programming
+- http://javascriptissexy.com/tag/advanced-javascript-2/
+- http://ejohn.org/apps/learn/
+- https://addyosmani.com/resources/essentialjsdesignpatterns/book/ - Design patterns
+- https://egghead.io/courses/mastering-asynchronous-programming-the-end-of-the-loop
