@@ -5,4 +5,6 @@ Full Stack JS development links: https://www.youtube.com/watch?v=oeADuqaQYS0&lis
 			   
 Remaining suggested pdf's
 
+Timeline: End of March
+Proficiency in: OOPS, Design Patterns, Data Structures, Advanced concepts, Ability to understand any JS code.
  
