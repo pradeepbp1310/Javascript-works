@@ -1,22 +1,15 @@
-Up-to-date link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
-Youtube links: https://www.youtube.com/watch?v=WgyCEbgUcCk&list=PLz1XPAFf8IxbIU78QL158l_KlN9CvH5fg
-               https://www.youtube.com/watch?v=ZPWxEg5qAhw&list=PLOmNcAdC4n2C2t248HbYQIPcuyDm__5Hs
-Full Stack JS development links: https://www.youtube.com/watch?v=oeADuqaQYS0&list=PLw5h0DiJ-9PCS1v5EQEqyN7EpWpYp9Ywp
-			   
-Remaining suggested pdf's
-
-*- -*
-  *
-'__'
+Roadamap to master JS: Feel free to go through all the links
 
 The Roadmap:
 
 1. Beginner level
 
 List of resource to follow
+- http://javascript.info/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
 - http://eloquentjavascript.net/ [till Chapter 5 - Higher order functions]
 - Watch videos:- https://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners
+		 https://www.youtube.com/watch?v=WgyCEbgUcCk&list=PLz1XPAFf8IxbIU78QL158l_KlN9CvH5fg
 - Take quizzes:- http://www.codequizzes.com/javascript
 - Get used with Array, string predefined functions(Most of them) 
 
@@ -69,3 +62,5 @@ Things to cover along with this
 - http://ejohn.org/apps/learn/
 - https://addyosmani.com/resources/essentialjsdesignpatterns/book/ - Design patterns
 - https://egghead.io/courses/mastering-asynchronous-programming-the-end-of-the-loop
+
+Thanks, have fun playing around :)
