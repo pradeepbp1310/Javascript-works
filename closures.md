@@ -127,7 +127,7 @@ var p = heroes(herArr);
 console.log(p[0].id()); // 100
 ```
 
-```
+```javascript
 // The inner function add remembers the value of x passed onto outer function makeAdd even after the makeAdd function invoked
 function makeAdd(x){
 	return function add(y){
