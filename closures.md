@@ -127,6 +127,22 @@ var p = heroes(herArr);
 console.log(p[0].id()); // 100
 ```
 
+```
+// The inner function add remembers the value of x passed onto outer function makeAdd even after the makeAdd function invoked
+function makeAdd(x){
+	return function add(y){
+		return x + y;
+	}
+}
+
+let plusTen = makeAdd(10);
+let plusOne = makeAdd(1);
+
+plusTen(20);
+plusOne(29);
+
+```
+
 ### Refernces
 - [http://javascriptissexy.com/understand-javascript-closures-with-ease/](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 - [https://stackoverflow.com/questions/111102/how-do-javascript-closures-work](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
