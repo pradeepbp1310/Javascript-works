@@ -16,3 +16,12 @@
 		- Modules
 7. this
 8. Prototypes
+
+# Scope & Closures
+## What is Scope?
+1. Compiler theory
+2. Understanding Scope
+3. Nested Scope 
+
+## Lexical Scope
+## Function vs. Block Scope
