@@ -126,6 +126,34 @@ var herArr = [{name: 'Dravid', id: 0}, {name: 'Souvarv', id: 0}, {name: 'Sri', i
 var p = heroes(herArr);
 console.log(p[0].id()); // 100
 ```
+```javascript
+const array = [1, 2, 3, 4];
+for (var i = 0; i < array.length; i++) {
+  setTimeout(function () {
+    console.log('I am at index ' + i); // gives index 4 for each iteration
+  }, 3000)
+}
+```
+
+```javascript
+const array = [1, 2, 3, 4];
+for (let i = 0; i < array.length; i++) { // fixed using let
+  setTimeout(function () {
+    console.log('I am at index ' + i)
+  }, 3000)
+}
+```
+
+```javascript
+const array = [1, 2, 3, 4];
+for (let i = 0; i < array.length; i++) {
+  (function(clsoureI) { // Fixed using IIFE by passing i as the arguement for the IIFE
+    setTimeout(function () {
+      console.log('I am at index ' + array[clsoureI])
+    }, 3000)
+  })(i)
+}
+```
 
 ```javascript
 // The inner function add remembers the value of x passed onto outer function makeAdd even after the makeAdd function invoked
@@ -140,8 +168,8 @@ let plusOne = makeAdd(1);
 
 plusTen(20);
 plusOne(29);
-
 ```
+
 
 ### Refernces
 - [http://javascriptissexy.com/understand-javascript-closures-with-ease/](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
